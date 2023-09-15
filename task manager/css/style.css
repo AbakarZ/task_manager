@@ -1,0 +1,100 @@
+html {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.container {
+  width: 1400px;
+  margin: 0 auto;
+}
+
+.hide {
+  display: none;
+}
+
+.task {
+  background-color: rgb(151, 151, 151);
+  padding: 50px 0 40px 0;
+  height: 100vh;
+}
+
+.task__title {
+  margin-bottom: 50px;
+}
+
+.drag-drop {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.drag-drop__block {
+  width: 100%;
+  min-height: 250px;
+  padding: 10px 5px;
+  background-color:rgb(238, 238, 238);
+  border-radius: 5px;
+
+  -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.drag-drop__title {
+  margin-bottom: 20px;
+}
+
+.drag-drop__list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-height: 200px;
+}
+
+.drag-drop__item {
+  opacity: 1;
+  padding: 7px;
+  border-radius: 5px;
+  background-color:rgb(188, 202, 218);
+  cursor: grab;
+
+  -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.drag-drop__header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.drag-drop__img {
+  margin-right: 15px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.drag-drop__name {
+  font-size: 18px;
+  font-weight: 600;
+}

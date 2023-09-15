@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Менеджер задач</title>
+  <link rel="stylesheet" href="css/normalize.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main>
+    <section class="task">
+      <div class="container">
+        <h1 class="task__title">Менеджер задач</h1>
+        <div class="drag-drop">
+          <div class="drag-drop__block">
+            <h2 class="drag-drop__title">Начать</h2>
+            <ul class="drag-drop__list">
+              <li class="drag-drop__item" draggable="true" data-id="1">
+                <div class="drag-drop__header">
+                  <img class="drag-drop__img" src="https://sportshub.cbsistatic.com/i/2022/12/03/b4a6b19c-3cd2-467c-b9f5-7f1e54ad7c74/assassins-creed-mirage.png" width="50" height="50" alt="Аватарка">
+                  <span class="drag-drop__name">Макс</span>
+                </div>
+                <p class="drag-drop__descr">
+                  Создать главную страницу сайта с информацией о его цели и основных функциях.
+                </p>
+              </li>
+              <li class="drag-drop__item" draggable="true" data-id="3">
+                <div class="drag-drop__header">
+                  <img class="drag-drop__img" src="https://sportshub.cbsistatic.com/i/2022/12/03/b4a6b19c-3cd2-467c-b9f5-7f1e54ad7c74/assassins-creed-mirage.png" width="50" height="50" alt="Аватарка">
+                  <span class="drag-drop__name">Костя</span>
+                </div>
+                <p class="drag-drop__descr">
+                  Разработать страницу для отображения списка коротких статей или новостей с возможностью их просмотра.
+                </p>
+              </li>
+            </ul>
+          </div>
+  
+          <div class="drag-drop__block">
+            <h2 class="drag-drop__title">В процессе</h2>
+            <ul class="drag-drop__list">
+              <li class="drag-drop__item" draggable="true" data-id="2">
+                <div class="drag-drop__header">
+                  <img class="drag-drop__img" src="https://sportshub.cbsistatic.com/i/2022/12/03/b4a6b19c-3cd2-467c-b9f5-7f1e54ad7c74/assassins-creed-mirage.png" width="50" height="50" alt="Аватарка">
+                  <span class="drag-drop__name">Саша</span>
+                </div>
+                <p class="drag-drop__descr">
+                  Создать страницу контактов со всей необходимой информацией для связи с посетителями сайта.
+                </p>
+              </li>
+            </ul>
+          </div>
+  
+          <div class="drag-drop__block">
+            <h2 class="drag-drop__title">Qa</h2>
+            <ul class="drag-drop__list">
+            </ul>
+          </div>
+  
+          <div class="drag-drop__block">
+            <h2 class="drag-drop__title">Готовы</h2>
+            <ul class="drag-drop__list">
+              <li class="drag-drop__item" draggable="true" data-id="4">
+                <div class="drag-drop__header">
+                  <img class="drag-drop__img" src="https://sportshub.cbsistatic.com/i/2022/12/03/b4a6b19c-3cd2-467c-b9f5-7f1e54ad7c74/assassins-creed-mirage.png" width="50" height="50" alt="Аватарка">
+                  <span class="drag-drop__name">Влад</span>
+                </div>
+                <p class="drag-drop__descr">
+                  Разработать форму обратной связи, чтобы посетители могли отправлять сообщения или задавать вопросы.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
